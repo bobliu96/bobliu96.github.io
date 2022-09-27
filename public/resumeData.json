@@ -48,6 +48,12 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
+        "school":"Humber College",
+        "degree":"Post Graduate Certificate - Major in Cloud Computing",
+        "graduated":"August, 2022",
+        "description":"cGPA 94/100"
+      },
+      {
         "school":"University of Toronto",
         "degree":"Honor Bachelor of Science double majored in Statistics and Neuroscience",
         "graduated":"June, 2019",
@@ -56,10 +62,22 @@
     ],
     "work":[
       {
-        "company":"Ubike Inc.",
+        "company":"Big Leaf Inc.",
+        "title":"Software Develper (Capstone Project)",
+        "years":"Apr 2022 - August 2022",
+        "description":"Designed, constructed, modified and tested KnowQuest frontend using ReactJS, CSS3/SCSS and bootstrap.Implemented backend and administration platform using Python Django framework. Implemented application virtualization using Docker and Docker Compose, draft Dockerfile for development and production environment.Designed AWS cloud deployment solution, and deployed frontend and backend using AWS ECS; deployed PostgreSQL using AWS RDS; constructed load balancers and target groups; constructed AWS S3 for static file storage; constructed CloudFront for static contents caching."
+      },
+      {
+        "company":"Bluelight Media Inc.",
         "title":"Software Develper ",
-        "years":"Oct 2019 - Present",
-        "description":"Implemented the UI and administration platform of core features with Html5 and VueJS; Updated the styles of the UI and administration platform using CSS3/SCSS and bootstrap; Implemented the design of token transaction tool through Klaytn blockchain network;"
+        "years":"Feb 2020 - May 2021",
+        "description":"Designed, constructed, modified, integrated, and tested data models and database management systems (MySQL and Python) for: Sales data ($100K per month); Client inquires data (50+ inquiries per day); Website and WeChat Mini Program visitor data (500+ active visitors per day).Operated database management systems (MySQL and Python) to analyze data and using machine learning algorithms for data mining.Modified, optimized, and implemented webpage, WeChat Mini Program, and advertisement contents on 100+ Ads display kiosks contents using HTML, bootstrap and ReactJS based on database and customer behavior."
+      },
+      {
+        "company":"Ubike Inc.",
+        "title":"Software Engineer Intern",
+        "years":"Oct 2019 - Jan 2020",
+        "description":"Implemented the UI and administration platform of core features with Html5 and ReactJS; Updated the styles of the UI and administration platform using CSS3/SCSS and bootstrap; Implemented the design of token transaction tool through Klaytn blockchain network."
       }
     ],
     "skills":[
@@ -92,7 +110,7 @@
         "level":"80%"
       },
       {
-        "name":"PostgreSQL",
+        "name":"MySQL",
         "level":"60%"
       },
       {
@@ -104,34 +122,28 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"King of Bots",
+        "category":"Game, Vue3.0, Java, Springboot",
+        "image":"king-of-bots.webp",
+        "url":"https://blogs.boliu.ca/2022/09/25/vue-and-springboot-project-king-of-bots/"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"KnowQuest Website",
+        "category":"Full-Stack Web, React, Python, Django",
+        "image":"knowquest.webp",
+        "url":"https://blogs.boliu.ca/2022/08/13/humber-2022-capstone-project/"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"Design a highly scalable and highly avaibele website",
+        "category":"AWS, Cloud Solution, CloudFront, S3, EC2, EFS, RDS, CloudWatch",
+        "image":"architecture.webp",
+        "url":"https://blogs.boliu.ca/2022/08/12/design-a-highly-scalable-and-highly-avaibele-website/"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Personal Website",
+        "category":"React, Javascript, GCP",
+        "image":"website.png",
+        "url":"https://github.com/bobliu96/bobliu96.github.io"
       }
     ]
   },
